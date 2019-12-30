@@ -1,4 +1,4 @@
-FROM debian:stretch 
+FROM debian:buster 
 
 RUN apt-get -y update \
  && apt-get -y install --no-install-recommends gnupg2 ca-certificates wget procps \
